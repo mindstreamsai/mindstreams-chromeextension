@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Welcome :)",
+    "description": "My first Chrome extension.",
+    "version": "1.0",
+    "author": "Emad Elmogy",
+    "browser_action": {
+        "default_icon": "mindstreams.png",
+        "default_popup": "popup.html",
+        "default_title": "Mindstreams"
+    },
+    "permissions": [
+        "activeTab"
+     ]
+}
